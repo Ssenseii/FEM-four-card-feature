@@ -1,0 +1,28 @@
+.header{
+    // border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2.75rem;
+    padding-bottom: 3.75rem;
+
+    &__title{
+        font-weight: 200;
+        color: $GrayishBlue;
+    }
+
+    &__title2{
+        font-weight: 600;
+        color: $VeryDarkBlue;
+        margin-bottom: 1rem;
+    }
+
+    &__paragraph{
+        width: 36rem;
+        color: $GrayishBlue;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}

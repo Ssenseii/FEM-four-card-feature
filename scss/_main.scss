@@ -1,0 +1,59 @@
+.cards{
+    // border: 1px solid pink;
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+    &__items-card{
+        position: relative;
+        width: 370px;
+        height: 250px;
+        padding: 1rem 2.75rem 1rem 2rem;
+        border-radius: 5px;
+        font-weight: 400;
+        background-color: white;
+        box-shadow: 0em 10px 2em $GrayishBlue;
+        
+
+        &-1{
+            border-top: 4px $Cyan solid;
+            top: 10rem;
+            left: 10rem;
+        }
+
+        &-2{
+            border-top: 4px $Red solid;
+            left: 12.5rem;
+        }
+
+        &-3{
+            border-top: 4px $Orange solid;
+            top: 20rem;
+            right: 12.1rem;
+        }
+
+        &-4{
+            border-top: 4px $Blue solid;
+            top: 10rem;
+            right: 9.5rem;
+        }
+
+        &-title{
+            color: $VeryDarkBlue;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        &-info{
+            color: $GrayishBlue;
+            margin-bottom: 3.75rem;
+        }
+        
+        &-icon{
+            position: relative;
+            left: 16rem;
+        }
+    }
+
+}

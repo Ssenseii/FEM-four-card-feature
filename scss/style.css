@@ -1,0 +1,133 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafafa;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.header__title {
+  font-weight: 200;
+  color: #a3a5ae;
+}
+
+.header__title2 {
+  font-weight: 600;
+  color: #4c4e61;
+  margin-bottom: 1rem;
+}
+
+.header__paragraph {
+  width: 36rem;
+  color: #a3a5ae;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  padding-bottom: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards__items-card {
+  position: relative;
+  width: 370px;
+  height: 250px;
+  padding: 1rem 2.75rem 1rem 2rem;
+  border-radius: 5px;
+  font-weight: 400;
+  background-color: white;
+  -webkit-box-shadow: 0em 10px 2em #a3a5ae;
+          box-shadow: 0em 10px 2em #a3a5ae;
+}
+
+.cards__items-card-1 {
+  border-top: 4px #45d3d3 solid;
+  top: 10rem;
+  left: 10rem;
+}
+
+.cards__items-card-2 {
+  border-top: 4px #ea5353 solid;
+  left: 12.5rem;
+}
+
+.cards__items-card-3 {
+  border-top: 4px #fcaf4a solid;
+  top: 20rem;
+  right: 12.1rem;
+}
+
+.cards__items-card-4 {
+  border-top: 4px #549ef2 solid;
+  top: 10rem;
+  right: 9.5rem;
+}
+
+.cards__items-card-title {
+  color: #4c4e61;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.cards__items-card-info {
+  color: #a3a5ae;
+  margin-bottom: 3.75rem;
+}
+
+.cards__items-card-icon {
+  position: relative;
+  left: 16rem;
+}
+/*# sourceMappingURL=style.css.map */
